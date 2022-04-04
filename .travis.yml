@@ -105,7 +105,7 @@ cache:
   yarn: true
   directories:
     - $HOME/.composer/cache
-    - node_modules
+    #- node_modules
 
 before_install:
   - if [[ -z "$CC_TEST_REPORTER_ID" ]]; then COVERAGE="0"; fi
